@@ -108,13 +108,13 @@ logo:
 #   - gravatar: whether to create a favicon from your Gravatar
 favicon:
   desktop:
-    url: /images/favicon.ico
+    url: https://res.cloudinary.com/alchemist-cookbook/image/upload/v1674087936/christianity.jpg
     gravatar: false
   android:
-    url: /images/favicon-192x192.png
+    url: https://res.cloudinary.com/alchemist-cookbook/image/upload/v1674087936/christianity.jpg
     gravatar: false
   apple:
-    url: /images/apple-touch-icon.png
+    url: https://res.cloudinary.com/alchemist-cookbook/image/upload/v1674087936/christianity.jpg
     gravatar: false
 
 # The color scheme that should be used to highlight codeblocks.
