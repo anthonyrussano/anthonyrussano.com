@@ -134,6 +134,17 @@ page_width: 48
 # Miscellaneous
 ##############################################################################
 
+# Edit
+
+history: # version control in page
+    enable: true
+    server: "https://github.com/" # recommend use GitHub https://github.com
+    user: anthonyrussano
+    rep: public
+    branch: master/site
+    repo: anthonyrussano.com
+
+
 # Enable or disable the RSS feed.
 rss: false
 
@@ -203,3 +214,4 @@ cdn:
   font_awesome: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css
   justified_gallery_css: https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.8.1/css/justifiedGallery.min.css
   justified_gallery_js: https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js
+
