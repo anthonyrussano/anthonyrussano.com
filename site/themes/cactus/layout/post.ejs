@@ -19,23 +19,17 @@
       <%- page.content %>
     </div>
 </article>
-<% let file_path=`${theme.history.branch}/source/${page.source}`;%>
+<% let file_path=`${theme.history.branch}/${theme.history.path}/source/${page.source}`;%>
   <div>
     <a
-      href="<%= theme.history.server %><%= theme.history.user %>/<%= theme.history.repo %><%= `/edit/main/source/_posts/template` %>">
-      New </a>
-  </div>
-  <div>
+      href="<%= theme.history.server %><%= theme.history.user %>/<%= theme.history.repo %><%= `/new/` %><%= theme.history.branch %>/<%= theme.history.path %><%= `/source/_posts` %>">
+      New</a> -
     <a href='<%= theme.history.server %><%= theme.history.user %>/<%= theme.history.repo %><%= `/edit/${file_path}` %>'>
-      Edit </a>
-  </div>
-  <div>
+      Edit</a> -
     <a
       href='<%= theme.history.server %><%= theme.history.user %>/<%= theme.history.repo %><%= `/commits/${file_path}` %>'>
-      History </a>
-  </div>
-  <div>
+      History</a> -
     <a href='<%= theme.history.server %><%= theme.history.user %>/<%= theme.history.repo %><%= `/raw/${file_path}` %>'>
-      Source </a>
+      Source</a>
   </div>
   <%- partial('_partial/comments') %>

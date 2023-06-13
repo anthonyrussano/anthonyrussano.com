@@ -141,7 +141,8 @@ history: # version control in page
     server: "https://github.com/" # recommend use GitHub https://github.com
     user: anthonyrussano
     rep: public
-    branch: master/site
+    branch: master
+    path: site
     repo: anthonyrussano.com
 
 
