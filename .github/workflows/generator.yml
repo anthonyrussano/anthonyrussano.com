@@ -28,6 +28,10 @@ jobs:
       run: |
         git submodule init
         git submodule update
+        cd public
+        git switch main
+        git pull
+        cd ..
         cd site
         npm install
         node_modules/hexo/bin/hexo clean
