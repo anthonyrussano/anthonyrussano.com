@@ -34,7 +34,6 @@ jobs:
         cd ..
         cd site
         npm install
-        node_modules/hexo/bin/hexo clean
         node_modules/hexo/bin/hexo gen
         cd ..
         cd public
