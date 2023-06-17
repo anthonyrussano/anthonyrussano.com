@@ -26,6 +26,8 @@ jobs:
         node-version: 'latest'
     - name: Build site
       run: |
+        git config --global user.email "me@anthonyrussano.com"
+        git config --global user.name "Anthony Russano"
         git submodule init
         git submodule update
         cd public
