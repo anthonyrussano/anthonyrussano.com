@@ -41,11 +41,11 @@ jobs:
         cd public
         git add .
         git commit -m "workflow publish"
-        git push
+        git push --force "https://github.com/${{ secrets.GIT_ACCESS_TOKEN }}@github.com/anthonyrussano/anthonyrussano.com_public" HEAD:main
         cd ..
         git add .
         git commit -m "workflow deploy"
-        git push
+        git push --force "https://github.com/${{ secrets.GIT_ACCESS_TOKEN }}@github.com/anthonyrussano/anthonyrussano.com" HEAD:main
 #     - name: commit static assets
 #       id: commits
 #       uses: EndBug/add-and-commit@v9
