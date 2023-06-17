@@ -30,10 +30,19 @@ jobs:
         npm install
         node_modules/hexo/bin/hexo clean
         node_modules/hexo/bin/hexo gen
-    - name: commit static assets
-      id: commits
-      uses: EndBug/add-and-commit@v9
-      with:
-        default_author: github_actions
-        message: 'static assets auto generated'
-        pull: '--all'
+        cd ..
+        cd public
+        git add .
+        git commit -m "workflow publish"
+        git push
+        cd ..
+        git add .
+        git commit -m "workflow deploy"
+        git push
+#     - name: commit static assets
+#       id: commits
+#       uses: EndBug/add-and-commit@v9
+#       with:
+#         default_author: github_actions
+#         message: 'static assets auto generated'
+#         pull: '--all'
