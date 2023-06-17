@@ -5,9 +5,8 @@ on:
   push:
     branches:
       - master
-    paths-ignore:
-      - 'public/**'
-      - '.github/workflows/**'
+    paths:
+      - 'site/source/**'
       
 permissions: write-all
 
