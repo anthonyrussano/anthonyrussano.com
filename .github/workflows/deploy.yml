@@ -29,3 +29,5 @@ jobs:
         cd site
         npm install
         node_modules/hexo/bin/hexo deploy
+      env:
+        HEXO_TOKEN: ${{ secrets.GIT_ACCESS_TOKEN }}
