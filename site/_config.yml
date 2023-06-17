@@ -104,7 +104,7 @@ theme: cactus
 # You can use this:
 deploy:
   type: git
-  repo: https://github.com/anthonyrussano/anthonyrussano.com_public.git
+  repo: git@github.com:anthonyrussano/anthonyrussano.com_public.git
   branch: main
   token: "${{ secrets.GIT_ACCESS_TOKEN }}"
   message: "GitHub Actions Workflow"
