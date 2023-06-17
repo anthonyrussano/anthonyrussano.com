@@ -106,7 +106,7 @@ deploy:
   type: git
   repo: https://github.com/anthonyrussano/anthonyrussano.com_public.git
   branch: main
-  token: ${{ secrets.GIT_ACCESS_TOKEN }}
+  token: $GIT_ACCESS_TOKEN
   message: "GitHub Actions Workflow"
   name: "Anthony Russano"
   email: "me@anthonyrussano.com"
