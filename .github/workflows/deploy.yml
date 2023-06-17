@@ -1,4 +1,4 @@
-name: Generate Site
+name: Deploy Site
 
 on:
   workflow_dispatch:
