@@ -35,7 +35,7 @@ jobs:
         cd public
         git switch main
         git pull
-        RM -rF *
+        rm -rF *
         cd ..
         cd site
         npm install
