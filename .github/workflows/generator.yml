@@ -25,6 +25,8 @@ jobs:
       with:
         node-version: 'latest'
     - name: Build site
+      env:
+        NODE_OPTIONS: --max-old-space-size=5168
       run: |
         git config --global user.email "me@anthonyrussano.com"
         git config --global user.name "Anthony Russano"
@@ -36,7 +38,7 @@ jobs:
         cd ..
         cd site
         npm install
-        node_modules/hexo/bin/hexo gen
+        node_modules/hexo/bin/hexo gen -c 1
         cd ..
         cd public
         git add .
