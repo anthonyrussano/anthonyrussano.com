@@ -1,10 +1,5 @@
 ---
-author: Anthony Russano
-contact: anthony@qualitywebsolutions.org
-updated: 2020/06/29 21:48:30
 title: Coconut Oil
-sample:
-- Plant Oils
 tags: 
 - Antioxidant
 - Bone Loss

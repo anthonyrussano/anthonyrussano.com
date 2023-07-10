@@ -1,12 +1,142 @@
 [
     {
-        "name": "RocketChat Server",
-        "url": "https://talk.anthonyrussano.com",
-        "desc": "A self-hosted chat server."
+        "name": "anthonyrussano.com",
+        "url": "https://github.com/anthonyrussano/anthonyrussano.com",
+        "desc": "No description"
     },
     {
-        "name": "Wikip Encyclopedia",
-        "url": "https://wikip.co",
-        "desc": "An Independent Research Project."
+        "name": "anthonyrussano.com-public",
+        "url": "https://github.com/anthonyrussano/anthonyrussano.com-public",
+        "desc": "This repo contains the static HTML that gets pushed to my webservers."
+    },
+    {
+        "name": "anthonyrussano.com_public",
+        "url": "https://github.com/anthonyrussano/anthonyrussano.com_public",
+        "desc": "No description"
+    },
+    {
+        "name": "api-examples",
+        "url": "https://github.com/anthonyrussano/api-examples",
+        "desc": "No description"
+    },
+    {
+        "name": "backups",
+        "url": "https://github.com/anthonyrussano/backups",
+        "desc": "No description"
+    },
+    {
+        "name": "cloudinary",
+        "url": "https://github.com/anthonyrussano/cloudinary",
+        "desc": "No description"
+    },
+    {
+        "name": "delmarchildcare.com",
+        "url": "https://github.com/anthonyrussano/delmarchildcare.com",
+        "desc": "No description"
+    },
+    {
+        "name": "devops-newsfeeds",
+        "url": "https://github.com/anthonyrussano/devops-newsfeeds",
+        "desc": "No description"
+    },
+    {
+        "name": "devops-wiki",
+        "url": "https://github.com/anthonyrussano/devops-wiki",
+        "desc": "No description"
+    },
+    {
+        "name": "flaskworld",
+        "url": "https://github.com/anthonyrussano/flaskworld",
+        "desc": "No description"
+    },
+    {
+        "name": "ical",
+        "url": "https://github.com/anthonyrussano/ical",
+        "desc": "No description"
+    },
+    {
+        "name": "mail-bridge",
+        "url": "https://github.com/anthonyrussano/mail-bridge",
+        "desc": "No description"
+    },
+    {
+        "name": "pico",
+        "url": "https://github.com/anthonyrussano/pico",
+        "desc": "No description"
+    },
+    {
+        "name": "picodev",
+        "url": "https://github.com/anthonyrussano/picodev",
+        "desc": "No description"
+    },
+    {
+        "name": "podbean",
+        "url": "https://github.com/anthonyrussano/podbean",
+        "desc": "No description"
+    },
+    {
+        "name": "PowerShell-Docker",
+        "url": "https://github.com/anthonyrussano/PowerShell-Docker",
+        "desc": "Repository for building PowerShell Docker images"
+    },
+    {
+        "name": "pyscrape",
+        "url": "https://github.com/anthonyrussano/pyscrape",
+        "desc": "No description"
+    },
+    {
+        "name": "python-docker",
+        "url": "https://github.com/anthonyrussano/python-docker",
+        "desc": "No description"
+    },
+    {
+        "name": "python-markdown-render",
+        "url": "https://github.com/anthonyrussano/python-markdown-render",
+        "desc": "No description"
+    },
+    {
+        "name": "rocket-chat-docker",
+        "url": "https://github.com/anthonyrussano/rocket-chat-docker",
+        "desc": "Docker hub - community managed image"
+    },
+    {
+        "name": "shoutcast-server",
+        "url": "https://github.com/anthonyrussano/shoutcast-server",
+        "desc": "No description"
+    },
+    {
+        "name": "site-feed",
+        "url": "https://github.com/anthonyrussano/site-feed",
+        "desc": "platform for publishing pipeline messages"
+    },
+    {
+        "name": "textual",
+        "url": "https://github.com/anthonyrussano/textual",
+        "desc": "No description"
+    },
+    {
+        "name": "wavehare",
+        "url": "https://github.com/anthonyrussano/wavehare",
+        "desc": "No description"
+    },
+    {
+        "name": "waveshare",
+        "url": "https://github.com/anthonyrussano/waveshare",
+        "desc": "No description"
+    },
+    {
+        "name": "web3.storage",
+        "url": "https://github.com/anthonyrussano/web3.storage",
+        "desc": "Scripts for uploading data to IPFS"
+    },
+    {
+        "name": "wiki-server",
+        "url": "https://github.com/anthonyrussano/wiki-server",
+        "desc": "No description"
+    },
+    {
+        "name": "yt-dlp-app",
+        "url": "https://github.com/anthonyrussano/yt-dlp-app",
+        "desc": "No description"
     }
 ]

@@ -33,9 +33,6 @@
                     onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up"
                       aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a>
                 </li>
-                <li><a class="icon" aria-label="<%- __('post.desktop.share') %>" href="#"><i
-                      class="fa-solid fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();"
-                      onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
       </ul>
       <span id="i-prev" class="info" style="display:none;">
         <%= __('post.desktop.previous') %>
@@ -46,16 +43,29 @@
       <span id="i-top" class="info" style="display:none;">
         Home
       </span>
-      <span id="i-share" class="info" style="display:none;">
-      </span>
     </span>
-    <br />
-    <div id="share" style>
-      <%- partial('_partial/post/share') %>
-    </div>
     <% let tocHTML=toc(page.content) %>
       <% if (tocHTML !=='' ) { %>
         <div id="toc">
+          <% if (page.image) { %>
+            <div class="article-gallery">
+              <a class="gallery-item"
+                href="https://res.cloudinary.com/alchemist-cookbook/image/upload/w_200,f_auto/<%- page.image %>"
+                rel="gallery_<%= page._id %>">
+                <img src="https://res.cloudinary.com/alchemist-cookbook/image/upload/w_200,f_auto/<%- page.image %>"
+                  itemprop="image" />
+              </a>
+            </div>
+            <% } else { %>
+              <div class="article-gallery">
+                <a class="gallery-item"
+                  href="https://res.cloudinary.com/alchemist-cookbook/image/upload/w_200,f_auto/<%- page.title %>"
+                  rel="gallery_<%= page._id %>">
+                  <img src="https://res.cloudinary.com/alchemist-cookbook/image/upload/w_200,f_auto/<%- page.title %>"
+                    itemprop="image" />
+                </a>
+              </div>
+              <% } %>
           <%- tocHTML %>
         </div>
         <% } %>

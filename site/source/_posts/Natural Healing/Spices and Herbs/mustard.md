@@ -1,7 +1,5 @@
 ---
 title: Mustard
-sample:
-- Spices
 tags:
 - Antioxidant
 - Arthritis
