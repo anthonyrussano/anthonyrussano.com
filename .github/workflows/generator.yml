@@ -24,6 +24,18 @@ jobs:
     - uses: actions/setup-node@v3
       with:
         node-version: 'latest'
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.10
+    - name: Install dependencies run script
+      run: |
+        pip install --upgrade pip
+        pip install pipenv
+        cd site/source/_data
+        pipenv install
+        pipenv run python get_projects.py
+        cd ../..
     - name: Build site
       env:
         NODE_OPTIONS: --max-old-space-size=5168
