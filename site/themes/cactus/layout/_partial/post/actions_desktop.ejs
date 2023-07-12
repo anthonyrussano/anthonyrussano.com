@@ -1,73 +1,61 @@
 <div id="header-post">
   <a id="menu-icon" href="#" aria-label="<%- __('icons.menu') %>"><i class="fa-solid fa-bars fa-lg"></i></a>
   <a id="menu-icon-tablet" href="#" aria-label="<%- __('icons.menu') %>"><i class="fa-solid fa-bars fa-lg"></i></a>
-  <a id="top-icon-tablet" href="#" aria-label="<%- __('icons.top') %>"
-    onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i
-      class="fa-solid fa-chevron-up fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="<%- __('icons.top') %>" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fa-solid fa-chevron-up fa-lg"></i></a>
   <span id="menu">
     <span id="nav">
       <ul>
         <% for (var i in theme.nav) { %><!--
-       -->
-          <li><a href="<%- url_for(theme.nav[i]) %>">
-              <%= __('nav.'+i).replace("nav.", "" ) %>
-            </a></li><!--
-     -->
-          <% } %>
+       --><li><a href="<%- url_for(theme.nav[i]) %>"><%= __('nav.'+i).replace("nav.", "") %></a></li><!--
+     --><% } %>
       </ul>
     </span>
-    <br />
+    <br/>
     <span id="actions">
       <ul>
         <% if (page.prev) { %>
-          <li><a class="icon" aria-label="<%- __('post.desktop.previous') %>" href="<%- url_for(page.prev.path) %>"><i
-                class="fa-solid fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();"
-                onmouseout="$('#i-prev').toggle();"></i></a></li>
-          <% } %>
-            <% if (page.next) { %>
-              <li><a class="icon" aria-label="<%- __('post.desktop.next') %>" href="<%- url_for(page.next.path) %>"><i
-                    class="fa-solid fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();"
-                    onmouseout="$('#i-next').toggle();"></i></a></li>
-              <% } %>
-                <li><a class="icon" aria-label="Home" href="/"
-                    onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up"
-                      aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a>
-                </li>
-      </ul>
-      <span id="i-prev" class="info" style="display:none;">
-        <%= __('post.desktop.previous') %>
-      </span>
-      <span id="i-next" class="info" style="display:none;">
-        <%= __('post.desktop.next') %>
-      </span>
-      <span id="i-top" class="info" style="display:none;">
-        Home
-      </span>
-    </span>
-    <% let tocHTML=toc(page.content) %>
-      <% if (tocHTML !=='' ) { %>
-        <div id="toc">
-          <% if (page.image) { %>
-            <div class="article-gallery">
-              <a class="gallery-item"
-                href="https://res.cloudinary.com/alchemist-cookbook/image/upload/w_200,f_auto/<%- page.image %>"
-                rel="gallery_<%= page._id %>">
-                <img src="https://res.cloudinary.com/alchemist-cookbook/image/upload/w_200,f_auto/<%- page.image %>"
-                  itemprop="image" />
-              </a>
-            </div>
-            <% } else { %>
-              <div class="article-gallery">
-                <a class="gallery-item"
-                  href="https://res.cloudinary.com/alchemist-cookbook/image/upload/w_200,f_auto/<%- page.title %>"
-                  rel="gallery_<%= page._id %>">
-                  <img src="https://res.cloudinary.com/alchemist-cookbook/image/upload/w_200,f_auto/<%- page.title %>"
-                    itemprop="image" />
-                </a>
-              </div>
-              <% } %>
-          <%- tocHTML %>
-        </div>
+        <li><a class="icon" aria-label="<%- __('post.desktop.previous') %>" href="<%- url_for(page.prev.path) %>"><i class="fa-solid fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
         <% } %>
+        <% if (page.next) { %>
+        <li><a class="icon" aria-label="<%- __('post.desktop.next') %>" href="<%- url_for(page.next.path) %>"><i class="fa-solid fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        <% } %>
+        <li><a class="icon" aria-label="<%- __('post.desktop.back_to_top') %>" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="<%- __('post.desktop.share') %>" href="#"><i class="fa-solid fa-file fa-lg" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;"><%= __('post.desktop.previous') %></span>
+      <span id="i-next" class="info" style="display:none;"><%= __('post.desktop.next') %></span>
+      <span id="i-top" class="info" style="display:none;"><%= __('post.desktop.back_to_top') %></span>
+      <span id="i-share" class="info" style="display:none;">Image</span>
+    </span>
+    <br/>
+    <div class="icon" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;" id="share" style>
+      <%- partial('image') %>
+    </div>
+    <% let tocHTML = toc(page.content) %>
+    <% if (tocHTML !== '') { %>
+      <div id="toc">
+        <%- list_tags(page.tags, {
+          orderby: 'name',
+          order: 1,
+          show_count: false,
+          style: 'list',
+          separator: ',',
+          class: {
+            ul: 'tag-list',
+            li: 'tag-list-item',
+            a: 'tag-list-link',
+            label: 'tag-label',
+            count: 'tag-list-count'
+          },
+          transform: function(name) {
+            // Custom transformation function for tag names
+            return name.toUpperCase();
+          },
+          amount: 0,
+          suffix: '-tag'
+        }) %>
+        
+      </div>
+    <% } %>
   </span>
 </div>
