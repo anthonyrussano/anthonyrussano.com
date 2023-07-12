@@ -9,10 +9,6 @@ tags:
 - Anti-Cancer
 - Anticancer
 - Digestion 
-post_asset_folder: true
-marked:
-  prependRoot: true
-  postAsset: true
 ---
 Chili peppers are varieties of the berry-fruit of plants from the genus Capsicum, which are members of the nightshade family Solanaceae, cultivated for their pungency. Chili peppers are widely used in many cuisines as a spice to add "heat" to dishes. Capsaicin and related compounds known as capsaicinoids are the substances giving chili peppers their intensity when ingested or applied topically.
 

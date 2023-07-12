@@ -1,10 +1,5 @@
 ---
-author: Anthony Russano
-contact: anthony@qualitywebsolutions.org
-updated: 2019/09/05 21:36:00
 title: Adenosine Triphosphate
-sample:
-- Chemicals
 tags:
 - Energy
 - Mitochondria

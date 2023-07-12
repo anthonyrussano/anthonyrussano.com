@@ -1,6 +1,5 @@
 ---
 title: Tomatoes
-sample: Vegetables
 tags:
 - Prostate Cancer
 - Weight Loss

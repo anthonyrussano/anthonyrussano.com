@@ -1,6 +1,5 @@
 ---
 title: Lime
-sample: Citrus
 tags:
 - Alkalizing
 - Antioxidant

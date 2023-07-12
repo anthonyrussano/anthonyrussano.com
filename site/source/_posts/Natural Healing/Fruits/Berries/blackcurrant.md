@@ -1,6 +1,5 @@
 ---
 title: Blackcurrant
-sample: Berries
 tags:
 - Antioxidant
 ---

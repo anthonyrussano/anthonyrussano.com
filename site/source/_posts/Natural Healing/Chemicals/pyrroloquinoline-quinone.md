@@ -1,6 +1,5 @@
 ---
 title: Pyrroloquinoline quinone
-sample: Supplements
 tags:
 - Antioxidant
 - Antiaging

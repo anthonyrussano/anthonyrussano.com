@@ -1,10 +1,5 @@
 ---
-author: Anthony Russano
-contact: anthony@qualitywebsolutions.org
-updated: 2020/02/18 19:56:36
 title: Papaya
-sample:
-- Fruits
 tags:
 - Antitumor
 - Antioxidant

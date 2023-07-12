@@ -1,6 +1,5 @@
 ---
 title: Daucosterol
-sample: Supplements
 tags:
 - Antimicrobial
 - Neuroprotective

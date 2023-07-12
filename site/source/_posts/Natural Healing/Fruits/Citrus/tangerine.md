@@ -1,6 +1,5 @@
 ---
 title: Tangerine
-sample: Citrus
 tags:
 - Alkalizing
 - Antioxidant

@@ -1,6 +1,5 @@
 ---
 title: Cranberry
-sample: Berries
 tags:
 - Alzheimer's
 - Antioxidant

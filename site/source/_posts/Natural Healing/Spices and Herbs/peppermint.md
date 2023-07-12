@@ -1,6 +1,5 @@
 ---
 title: Peppermint
-sample: Herbs
 tags:
 - Analgesic
 - Antiemetic

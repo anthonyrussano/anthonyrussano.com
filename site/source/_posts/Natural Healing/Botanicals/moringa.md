@@ -1,11 +1,5 @@
 ---
-author: Anthony Russano
-contact: anthony@qualitywebsolutions.org
-updated: 2019/09/05 21:36:00
 title: Moringa
-descriptor: moringa
-sample: Plants
-toc: false
 tags:
 ---
 **Moringa**[^1]

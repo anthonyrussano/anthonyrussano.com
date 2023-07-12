@@ -1,6 +1,5 @@
 ---
 title: Goji Berry
-sample: Berries
 tags:
 - Antioxidant
 - Antiaging

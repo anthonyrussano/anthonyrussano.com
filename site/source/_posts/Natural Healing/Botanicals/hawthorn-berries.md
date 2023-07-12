@@ -1,6 +1,5 @@
 ---
 title: Hawthorn Berries
-sample: Berries
 tags:
 - Vasorelaxant
 - Hypertension

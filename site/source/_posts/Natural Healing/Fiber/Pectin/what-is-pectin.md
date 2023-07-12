@@ -8,10 +8,6 @@ tags:
 - Cancer
 - Hypercholesterolemia
 - High Cholesterol
-post_asset_folder: true
-marked:
-  prependRoot: true
-  postAsset: true
 ---
 **Pectin** is plant based, and consists of a complex set of polysaccharides.  The amount, structure and chemical composition of pectin differs among plants, within a plant over time, and in various parts of a plant.
 

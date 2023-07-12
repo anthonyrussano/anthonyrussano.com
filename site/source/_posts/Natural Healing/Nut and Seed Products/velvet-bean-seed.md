@@ -1,6 +1,5 @@
 ---
 title: Velvet Bean Seed
-sample: Plants
 tags:
 - Antioxidant
 ---

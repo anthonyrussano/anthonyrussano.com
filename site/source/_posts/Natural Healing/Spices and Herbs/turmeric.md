@@ -1,6 +1,5 @@
 ---
 title: Turmeric
-sample: Spices
 tags:
 - Antioxidant
 - Antiinflammatory

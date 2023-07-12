@@ -1,6 +1,5 @@
 ---
 title: Coenzyme-Q10
-sample: Supplements
 tags:
 - Anticancer
 - Antiinflammatory

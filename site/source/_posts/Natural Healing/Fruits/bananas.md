@@ -1,7 +1,5 @@
 ---
 title: Bananas
-sample:
-- Fruits
 tags:
 - Antiinflammatory
 - Diabetes

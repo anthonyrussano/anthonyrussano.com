@@ -1,6 +1,5 @@
 ---
 title: Bifidobacteria
-sample: Probiotics
 tags:
 - Probiotic
 ---

@@ -1,6 +1,5 @@
 ---
 title: Cordyceps
-sample: Fungii
 tags:
 - Circulation
 - Anticancer

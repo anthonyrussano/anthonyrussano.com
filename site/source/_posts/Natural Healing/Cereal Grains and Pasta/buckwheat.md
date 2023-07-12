@@ -1,6 +1,5 @@
 ---
 title: Buckwheat
-sample: Grains
 tags:
 - Alkalizing
 - Antioxidant

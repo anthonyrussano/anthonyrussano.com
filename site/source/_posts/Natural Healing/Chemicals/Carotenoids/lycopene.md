@@ -1,6 +1,5 @@
 ---
 title: Lycopene
-sample: Carotenoids
 tags:
 - Prostate Health
 - Photoprotective

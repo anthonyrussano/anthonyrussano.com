@@ -1,10 +1,5 @@
 ---
-author: Anthony Russano
-contact: anthony@qualitywebsolutions.org
-updated: 2019/09/28 20:34:41
 title: Chlorophyllin
-sample:
-- Supplements
 tags:
 - Blood Health
 ---

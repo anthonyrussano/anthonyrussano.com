@@ -13,10 +13,6 @@ tags:
 - Atherosclerosis
 - Prostate Cancer
 - Fibrosis
-post_asset_folder: true
-marked:
-  prependRoot: true
-  postAsset: true
 ---
 **Pectasol-c** (Modified Citrus Pectin)[^1]
 

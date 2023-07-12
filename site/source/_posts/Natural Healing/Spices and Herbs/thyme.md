@@ -1,6 +1,5 @@
 ---
 title: Thyme
-sample: Herbs
 tags:
 - Antimicrobial
 - Antibacterial

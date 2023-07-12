@@ -1,10 +1,5 @@
 ---
-author: Anthony Russano
-contact: anthony@qualitywebsolutions.org
-updated: 2020/02/18 19:48:33
 title: Glucosinolates
-sample:
-- Enzymes
 tags:
 - Antioxidant
 - Anticancer

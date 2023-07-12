@@ -1,10 +1,5 @@
 ---
-author: Anthony Russano
-contact: anthony@qualitywebsolutions.org
-updated: 2020/01/25 22:32:13
 title: Lavender
-sample:
-- Plants
 tags:
 - Antidepressant
 - Anxiolytic

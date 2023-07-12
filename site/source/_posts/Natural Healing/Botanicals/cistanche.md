@@ -1,10 +1,5 @@
 ---
-author: Anthony Russano
-contact: anthony@qualitywebsolutions.org
-updated: 2020/06/29 21:50:59
 title: Cistanche
-sample:
-- Plants
 tags:
 - Antiaging
 - Alzheimer's

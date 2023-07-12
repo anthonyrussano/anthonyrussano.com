@@ -1,6 +1,5 @@
 ---
 title: Wormwood
-sample: Plants
 tags:
 - Antimicrobial
 - Antiseptic

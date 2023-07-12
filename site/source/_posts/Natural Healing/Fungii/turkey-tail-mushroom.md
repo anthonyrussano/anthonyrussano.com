@@ -15,8 +15,6 @@ tags:
 - Immunostimulator
 - Chemoimmunotherapy
 - Immunotherapy
-sample:
-- Fungii
 ---
 **Turkey Tail Mushroom** (also known as Coriolus versicolor, Trametes versicolor, or Polyporus versicolor)[^1]
 

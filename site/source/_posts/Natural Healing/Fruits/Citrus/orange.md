@@ -1,6 +1,5 @@
 ---
 title: Orange
-sample: Citrus
 tags:
 - Antiviral
 - COVID-19

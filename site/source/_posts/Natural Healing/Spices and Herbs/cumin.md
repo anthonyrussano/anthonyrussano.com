@@ -1,6 +1,5 @@
 ---
 title: Cumin
-sample: Spices
 tags:
 - Antifungal
 - Antibacterial

@@ -1,7 +1,5 @@
 ---
 title: Onions
-sample:
-- Vegetables
 tags:
 - Antifungal
 - Antiobesity

@@ -1,6 +1,5 @@
 ---
 title: Coffee Fruit
-sample: Berries
 tags:
 - Antioxidant
 ---

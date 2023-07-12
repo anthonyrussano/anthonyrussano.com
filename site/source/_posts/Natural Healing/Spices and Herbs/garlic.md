@@ -15,7 +15,6 @@ tags:
 - Hypolipidemic
 - Hypoglycemic
 - Immunomodulatory
-- 
 ---
 **Garlic** (Allium sativum)
 

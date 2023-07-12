@@ -1,6 +1,5 @@
 ---
 title: Sesame
-sample: Seeds
 tags:
 - Parkinson's Disease
 ---

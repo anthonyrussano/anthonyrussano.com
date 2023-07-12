@@ -1,6 +1,5 @@
 ---
 title: Echinacea
-sample: Herbs
 tags:
 - Antioxidant
 - Common Cold

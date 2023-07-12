@@ -1,6 +1,5 @@
 ---
 title: Royal Jelly
-sample: Supplements
 tags:
 - Antioxidant
 - Antibacterial

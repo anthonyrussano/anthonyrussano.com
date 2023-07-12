@@ -1,11 +1,5 @@
 ---
-author: Anthony Russano
-contact: anthony@qualitywebsolutions.org
-updated: 2019/09/05 21:33:38
 title: Horseradish
-descriptor: horseradish
-sample: Plants
-toc: false
 tags:
 - Antimicrobial
 - Antiviral

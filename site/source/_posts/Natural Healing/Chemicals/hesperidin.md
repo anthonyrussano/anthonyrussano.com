@@ -1,6 +1,5 @@
 ---
 title: Hesperidin
-sample: Flavonoids
 tags:
 - 
 ---

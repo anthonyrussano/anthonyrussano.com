@@ -1,6 +1,5 @@
 ---
 title: Proanthocyanidins
-sample: Polyphenols
 tags:
 - Antioxidant
 - Antiinflammatory

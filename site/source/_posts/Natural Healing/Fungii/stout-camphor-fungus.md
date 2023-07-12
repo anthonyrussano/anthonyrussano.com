@@ -1,6 +1,5 @@
 ---
 title: Stout Camphor Fungus
-sample: Fungii
 tags:
 - Immunomodulation
 ---

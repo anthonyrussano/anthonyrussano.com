@@ -1,6 +1,5 @@
 ---
 title: Cannabis
-sample: Herbs
 tags:
 - Neuroprotective
 ---

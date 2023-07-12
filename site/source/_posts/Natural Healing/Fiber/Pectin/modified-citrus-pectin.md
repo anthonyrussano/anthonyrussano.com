@@ -3,10 +3,6 @@ title: Modified Citrus Pectin
 image: modified-citrus-pectin
 tags:
 - Citrus
-post_asset_folder: true
-marked:
-  prependRoot: true
-  postAsset: true
 ---
 ## Description
 

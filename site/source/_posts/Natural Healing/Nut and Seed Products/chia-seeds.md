@@ -1,6 +1,5 @@
 ---
 title: Chia Seeds
-sample: Seeds
 tags:
 - Brain Health
 - Intelligence

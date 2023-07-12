@@ -1,6 +1,5 @@
 ---
 title: Pine Bark Extract
-sample: Supplements
 tags:
 - Fibromyalgia
 - Idiopathic myalgic pain 

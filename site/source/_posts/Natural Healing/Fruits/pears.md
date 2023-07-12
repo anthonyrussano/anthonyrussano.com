@@ -1,6 +1,5 @@
 ---
 title: Pears
-sample: Fruits
 tags:
 - Antioxidant
 - Fiber

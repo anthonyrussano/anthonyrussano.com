@@ -1,6 +1,5 @@
 ---
 title: Mulberry
-sample: Berries
 tags:
 - Antioxidant
 - Fatty Liver Disease

@@ -1,10 +1,5 @@
 ---
-author: Anthony Russano
-contact: anthony@qualitywebsolutions.org
-updated: 2020/01/25 22:40:17
 title: Methyl Sulphonyl Methane
-description:
-warning:
 tags:
 - Immunomodulation
 - Wound Healing
@@ -20,8 +15,6 @@ tags:
 - Pain Management
 - Renal Failure
 - Repetitive Stress Injuries
-sample:
-- Supplements
 ---
 **Methyl Sulphonyl Methane** better known as MSM, is a naturally occurring Sulphur compound with well-known antioxidant properties.[^1]
 

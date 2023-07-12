@@ -1,6 +1,5 @@
 ---
 title: Bergamot
-sample: Citrus
 tags:
 - Cancer
 - Antiinflammatory

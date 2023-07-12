@@ -1,7 +1,5 @@
 ---
 title: Chamomile
-sample:
-- Flowers
 tags:
 - Antispasmodic
 - Anxiolytic

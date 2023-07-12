@@ -1,10 +1,5 @@
 ---
-author: Anthony Russano
-contact: anthony@qualitywebsolutions.org
-updated: 2019/09/05 21:36:00
 title: Passiflora incarnata
-descriptor: Passifloraincarnata
-sample: Flowers
 tags: 
 - Antianxiety
 - Anxiolytic

@@ -1,7 +1,5 @@
 ---
 title: Alanine
-sample:
-- Amino Acids
 tags:
 - 
 ---

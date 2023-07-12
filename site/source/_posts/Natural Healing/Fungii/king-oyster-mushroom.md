@@ -1,10 +1,5 @@
 ---
-author: Anthony Russano
-contact: anthony@qualitywebsolutions.org
-updated: 2019/09/05 21:34:57
 title: King Oyster Mushroom
-sample:
-- Fungii
 tags:
 - Anticancer
 - Antilipemic

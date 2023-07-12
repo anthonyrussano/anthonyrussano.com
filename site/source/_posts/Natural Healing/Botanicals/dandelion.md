@@ -1,6 +1,5 @@
 ---
 title: Dandelion
-sample: Herbs
 tags:
 - Fibromyalgia
 ---

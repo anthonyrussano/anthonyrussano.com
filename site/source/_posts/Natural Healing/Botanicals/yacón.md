@@ -1,6 +1,5 @@
 ---
 title: Yacón
-sample: Plants
 tags:
 - Arteriosclerosis
 - Atherosclerosis

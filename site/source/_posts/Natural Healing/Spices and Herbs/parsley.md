@@ -1,14 +1,9 @@
 ---
-author: Anthony Russano
-contact: anthony@qualitywebsolutions.org
-updated: 2019/09/05 21:36:00
 title: Parsley
-descriptor: parsley
 tags:
 - Antioxidant
 - Carminative
 - Diuretic
-sample: Herbs
 ---
 **Parsley** (Petroselinum crispum)<!--more-->
 ## Healing Properties

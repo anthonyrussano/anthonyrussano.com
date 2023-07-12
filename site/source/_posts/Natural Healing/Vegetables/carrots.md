@@ -1,6 +1,5 @@
 ---
 title: Carrots
-sample: Vegetables
 tags:
 - Antioxidant
 - Fiber

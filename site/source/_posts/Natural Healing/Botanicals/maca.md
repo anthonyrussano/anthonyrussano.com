@@ -1,10 +1,5 @@
 ---
-author: Anthony Russano
-contact: anthony@qualitywebsolutions.org
-updated: 2020/01/25 22:34:10
 title: Maca
-sample:
-- Plants
 tags:
 - Vitality
 ---

@@ -1,10 +1,5 @@
 ---
-author: Anthony Russano
-contact: anthony@qualitywebsolutions.org
-updated: 2019/09/05 21:33:38
 title: Spinach
-descriptor: spinach
-sample: Vegetables
 tags:
 - Iron
 - Colon Cancer

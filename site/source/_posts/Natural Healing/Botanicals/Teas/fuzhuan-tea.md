@@ -1,17 +1,11 @@
 ---
-author: Anthony Russano
-contact: anthony@qualitywebsolutions.org
-updated: 2019/09/05 21:36:00
 title: Fuzhuan Tea
-sample:
-- Teas
 tags:
 - Blood Health
 - Cardiovascular Health
 - Diabetes
 - Hyperlipidemia
 - Immune System
-buynow: 
 ---
 **Fuzhuan Tea** (also called Fu Tea, Fu Zhuan Tea, or Chinese Brick Tea) is a type of fermented tea made from the Camellia sinensis plant. Fu Zhuan Tea is fermented with the fungus, Erotium cristatum (Eurotium cristatum), and contains a unique phytochemical profile attributed to its unique method of processing.[^1]<!--more-->
 

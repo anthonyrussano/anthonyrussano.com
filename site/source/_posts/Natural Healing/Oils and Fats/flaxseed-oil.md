@@ -1,7 +1,5 @@
 ---
 title: Flaxseed Oil
-sample:
-- Oils
 tags:
 - Anti-Inflammatory
 - Hypolipidemic

@@ -1,12 +1,5 @@
 ---
-author: Anthony Russano
-contact: anthony@qualitywebsolutions.org
-updated: 2020/01/25 22:33:43
 title: Lilac Sage
-description:
-warning:
-sample:
-- Herbs
 tags:
 - Anticonvulsant
 - Antidepressant

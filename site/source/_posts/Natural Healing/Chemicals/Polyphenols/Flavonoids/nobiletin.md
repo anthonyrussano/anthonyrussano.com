@@ -1,11 +1,5 @@
 ---
-author: Anthony Russano
-contact: anthony@qualitywebsolutions.org
-updated: 2020/04/14 18:42:45
 title: Nobiletin
-description:
-sample:
-- Citrus
 tags:
 - Memory
 - Atherosclerosis

@@ -1,6 +1,5 @@
 ---
 title: Bay Leaf
-sample: Herbs
 tags:
 - Antioxidant
 - Blood Glucose

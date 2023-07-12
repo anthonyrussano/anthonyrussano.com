@@ -1,6 +1,5 @@
 ---
 title: Cat's Claw
-sample: Plants
 tags:
 - Fatigue
 - Nausea

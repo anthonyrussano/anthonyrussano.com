@@ -1,6 +1,5 @@
 ---
 title: Djulis
-sample: Plants
 tags:
 - Skin Health
 - UV Skin Damage

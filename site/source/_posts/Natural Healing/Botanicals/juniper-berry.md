@@ -1,7 +1,5 @@
 ---
 title: Juniper Berry
-sample:
-- Berries
 tags:
 - Antifungal
 - Anti-Fungal

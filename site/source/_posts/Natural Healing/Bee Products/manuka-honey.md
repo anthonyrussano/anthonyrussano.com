@@ -1,10 +1,5 @@
 ---
-author: Anthony Russano
-contact: anthony@qualitywebsolutions.org
-updated: 2020/01/25 22:36:12
 title: Manuka Honey
-sample:
-- Foods
 tags: 
 - Antiviral
 - Antiinflammatory

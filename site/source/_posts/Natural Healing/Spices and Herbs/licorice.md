@@ -1,6 +1,5 @@
 ---
 title: Licorice
-sample: Plants
 tags:
 - Antioxidant
 - Anticancer

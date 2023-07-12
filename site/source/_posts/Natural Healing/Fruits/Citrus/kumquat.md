@@ -1,10 +1,5 @@
 ---
-author: Anthony Russano
-contact: anthony@qualitywebsolutions.org
-updated: 2019/09/29 22:41:56
 title: Kumquat
-sample:
-- Fruits
 tags:
 - Vitamin C
 ---

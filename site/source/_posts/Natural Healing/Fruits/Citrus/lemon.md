@@ -1,6 +1,5 @@
 ---
 title: Lemon
-sample: Citrus
 tags:
 - Kidney Stones
 - Fibromyalgia
