@@ -20,7 +20,7 @@
         <li><a class="icon" aria-label="<%- __('post.desktop.next') %>" href="<%- url_for(page.next.path) %>"><i class="fa-solid fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
         <% } %>
         <li><a class="icon" aria-label="<%- __('post.desktop.back_to_top') %>" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
-        <li><a class="icon" aria-label="<%- __('post.desktop.share') %>" href="#"><i class="fa-solid fa-file fa-lg" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+        <li><a class="icon" aria-label="<%- __('post.desktop.share') %>" href="#"><i class="fa-solid fa-image fa-lg" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
       </ul>
       <span id="i-prev" class="info" style="display:none;"><%= __('post.desktop.previous') %></span>
       <span id="i-next" class="info" style="display:none;"><%= __('post.desktop.next') %></span>
@@ -34,27 +34,14 @@
     <% let tocHTML = toc(page.content) %>
     <% if (tocHTML !== '') { %>
       <div id="toc">
+        Keywords
         <%- list_tags(page.tags, {
           orderby: 'name',
           order: 1,
           show_count: false,
           style: 'list',
-          separator: ',',
-          class: {
-            ul: 'tag-list',
-            li: 'tag-list-item',
-            a: 'tag-list-link',
-            label: 'tag-label',
-            count: 'tag-list-count'
-          },
-          transform: function(name) {
-            // Custom transformation function for tag names
-            return name.toUpperCase();
-          },
-          amount: 0,
-          suffix: '-tag'
+          amount: 0
         }) %>
-        
       </div>
     <% } %>
   </span>
