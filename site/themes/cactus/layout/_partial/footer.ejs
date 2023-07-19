@@ -6,6 +6,7 @@
     <%= startYear >= endYear ? endYear : startYear + "-" + endYear %>
     <%= config.author || config.title %>
   </div>
+<% if (is_post()) { %>
   <div class="footer-right">
     <nav>
       <ul>
@@ -13,4 +14,5 @@
       </ul>
     </nav>
   </div>
+<% } %>
 </footer>
